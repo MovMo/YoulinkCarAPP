@@ -1,0 +1,284 @@
+.main{
+    padding-top: 44px;
+    padding-bottom: 55px;
+}
+
+/*确定订单  start*/
+.main .container{
+    background-color: #FFFFFF;
+    border-top: 1px solid #D2D2D2;
+    border-bottom: 1px solid #D2D2D2;
+    margin-bottom: .26rem;
+}
+.main .container:nth-of-type(1){
+    border-top: none;
+}
+.commodityBox{
+    padding: .26rem;
+}
+.commodityBox .imgBox{
+    width: 1.82rem;
+    height: 1.82rem;
+    margin-right: .24rem;
+}
+.commodityBox .imgBox img{
+    width: 100%;
+    height: 100%;
+}
+.testBox h4,.testBox p{
+    margin-bottom: .24rem;
+}
+.testBox p{
+    color: #bfbfbf;
+}
+.testBox .price{
+    color: #f24724;
+}
+
+
+.mode{
+    padding-left: .26rem;
+}
+.mode p{
+    height: .9rem;
+    line-height: .9rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D2D2D2;
+}
+.funBox{
+    height: .9rem;
+    line-height: .9rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D2D2D2;
+}
+.funBox:last-of-type{
+    border-bottom: none;
+}
+.funBox span{
+    padding-left: .54rem;
+    position: relative;
+}
+.funBox span:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: .22rem;
+    width: .1rem;
+    height: .1rem;
+    background-color: #90C31F;
+    border-radius: 50%;
+    margin-top: -.05rem;
+}
+.funBox input{
+    width: .84rem;
+    height: .84rem;
+    background: url(../img/shopping/unCheck@2x.png) no-repeat;
+    background-size: 100%;
+}
+.funBox input:checked{
+    background: url(../img/shopping/check@2x.png) no-repeat;
+    background-size: 100%;
+}
+
+.invoiceBox{
+    padding: 0 .26rem;
+    height: .9rem;
+    line-height: .9rem;
+}
+.invoiceBox span{
+    text-align: center;
+    width: 1.56rem;
+    margin-right: .26rem;
+}
+.inpBox{
+    height: 100%;
+}
+.inpBox input{
+    width: 100%;
+    height: 100%;
+    line-height: .9rem;
+    color: #585858;
+}
+
+.List{
+    padding: 0 .26rem;
+    border-bottom: 1px solid #D2D2D2;
+}
+.headTitle{
+    line-height: .9rem;
+}
+.comBox li{
+    padding: 0 .26rem;
+    height: .9rem;
+    line-height: .9rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D2D2D2;
+}
+.comBox li:last-of-type{
+    border-bottom: none;
+}
+.comBox li i{
+    width: .88rem;
+    height: .88rem;
+    background: url(../img/shopping/front@2x.png) no-repeat;
+    background-size: 100%;
+}
+.comBox li .activeData{
+    margin-right: .2rem;
+    color: #B5B5B5;
+    background-color: transparent;
+    height: .9rem;
+    line-height: .9rem;
+    text-align: right;
+}
+
+.youdou{
+    height: .9rem;
+    line-height: .9rem;
+    padding: 0 .26rem;
+}
+.youdou h4{
+    margin-right: .5rem;
+}
+.youdou span{
+    color: #b5b5b5;
+    font-size: .24rem;
+    position: relative;
+}
+.youdou span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: .64rem;
+    height: .64rem;
+    background: url(../img/shopping/if@2x.png) no-repeat;
+    background-size: 100%;
+}
+.youdou i{
+    width: .64rem;
+    height: .36rem;
+    margin-top: .27rem;
+    background: url(../img/shopping/switch_close@2x.png) no-repeat;
+    background-size: 100%;
+}
+.youdou i.active{
+    background: url(../img/shopping/switch_open@2x.png) no-repeat;
+    background-size: 100%;
+}
+.Agreement{
+    line-height: .9rem;
+    padding-left: .26rem;
+}
+.Agreement .box{
+    padding-right: .26rem;
+    border-top: 1px solid #D2D2D2;
+}
+.Agreement .box input{
+    width: .84rem;
+    height: .84rem;
+    background: url(../img/shopping/unCheck@2x.png) no-repeat;
+    background-size: 100%;
+}
+.Agreement .box span a{
+    display: inline-block;
+    color: #90C31F;
+}
+.Agreement .box input:checked{
+    background: url(../img/shopping/check@2x.png) no-repeat;
+    background-size: 100%;
+}
+
+.cityBox{
+    border-top: 1px solid #D2D2D2;
+}
+.kuaidi{
+    border-top: none;
+}
+.chooseBtn{
+    height: .9rem;
+    position: relative;
+}
+.chooseBtn .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    width: 2.42rem;
+    height: .56rem;
+    background-color: #90C31F;
+    color: #FFFFFF;
+    line-height: .56rem;
+    text-align: center;
+    border-radius: .28rem;
+}
+.comBox li.storeInfo{
+    padding: .15rem .26rem;
+    box-sizing: border-box;
+}
+.storeInfo .btn{
+    width: 2.4rem;
+    height: .6rem;
+    line-height: .6rem;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #90C31F;
+    border-radius: .3rem;
+    margin: 0 auto;
+}
+
+.activeCity{
+    padding: 0 .26rem;
+    background: url(../img/shopping/play.png) no-repeat;
+    background-position-y: bottom;
+    background-size: 100% .08rem;
+}
+.activeCity .head{
+    line-height: .9rem;
+}
+.cityTest{
+    padding-bottom: .2rem;
+}
+.cityTest p{
+    line-height: .44rem;
+}
+.cityTest i{
+    width: .88rem;
+    height: .88rem;
+    background: url(../img/shopping/front@2x.png) no-repeat;
+    background-size: 100%;
+}
+.padd{
+    padding: .26rem 0;
+}
+.total li{
+    padding: 0 .26rem;
+    margin-bottom: .26rem;
+}
+.total li:last-of-type{
+    margin-bottom: 0;
+}
+.total li span:nth-of-type(2){
+    color: #f24724;
+}
+
+.footer{
+    border-top: 1px solid #D2D2D2;
+}
+.footer .allNun{
+    line-height: 44px;
+    color: #f24724;
+    font-size: 14px;
+}
+.footer .settlementBtn{
+    width: 2.7rem;
+    height: 100%;
+    line-height: 44px;
+    background-color: #f24724;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+/*确定订单  end*/
